@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import { routes } from "./routes";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#34C94B",
+    },
+  },
+});
+
+const router = createBrowserRouter(routes);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/MohankumarKumarakrishnan/L-square-QTify.git"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div>
+        <RouterProvider router={router} />
+      </div>
+    </ThemeProvider>
   );
 }
 
