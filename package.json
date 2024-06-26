@@ -1,5 +1,17 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "notistack": "^3.0.1"
   }
+=======
+  "name": "l-square-qtify",
+  "version": "1.0.0",
+  "description": "Hello",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+>>>>>>> 615c2a8435a9d6f2382f4134e9beb951ca91e509
 }
