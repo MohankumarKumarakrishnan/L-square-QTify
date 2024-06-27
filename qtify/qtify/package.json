@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "-": "^0.0.1",
         "@emotion/react": "^11.11.4",
         "@emotion/styled": "^11.11.5",
         "@mui/icons-material": "^5.15.20",
@@ -11,6 +12,7 @@
         "@testing-library/react": "^16.0.0",
         "@testing-library/user-event": "^14.5.2",
         "axios": "^1.7.2",
+        "g": "^2.0.1",
         "notistack": "^3.0.1",
         "react": "^18.3.1",
         "react-audio-player": "^0.17.0",
@@ -23,6 +25,7 @@
         "react-scripts": "5.0.1",
         "styled-components": "^6.1.11",
         "swiper": "^11.1.4",
+        "vercel": "^34.2.8",
         "web-vitals": "^4.2.0"
     },
     "scripts": {
