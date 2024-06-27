@@ -1,2 +1,0 @@
-# L-square-QTify
-Hello  
