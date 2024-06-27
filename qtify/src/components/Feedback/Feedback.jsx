@@ -3,7 +3,6 @@ import styles from "./feedback.module.css";
 import { useSnackbar } from "notistack";
 function Feedback({ onClose }) {
   let { enqueueSnackbar } = useSnackbar();
-  
   let [feedbackData, setFeedbackData] = useState({
     fullName: "",
     email: "",
