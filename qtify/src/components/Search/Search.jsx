@@ -49,15 +49,15 @@ const Search = ({ data, page }) => {
               search.map((album) => {
                 return (
                   <div className={styles.albumWrapper} key={album.id}>
-                    <div className={styles.imgWrapper}>
+                    {/* <div className={styles.imgWrapper}>
                       <img
                         src={album.image}
                         alt=""
                         className={styles.albumImg}
                       />
-                    </div>
+                    </div> */}
 
-                    <div className={styles.albumHeadingWrapper}>
+                    {/* <div className={styles.albumHeadingWrapper}>
                       <p className={styles.albumTitle}>{album.title}</p>
                       <p className={styles.artists}>
                         {page === "home"
@@ -65,8 +65,8 @@ const Search = ({ data, page }) => {
                           : album.artists.join(", ")}
                         .....
                       </p>
-                    </div>
-                    <div className={styles.followersWrapper}>
+                    </div> */}
+                    {/* <div className={styles.followersWrapper}>
                       <p className={styles.followers}>
                         {page === "home" && album.follows && (
                           <>{(album.follows / 1000).toFixed(1)}k Follows</>
@@ -75,7 +75,7 @@ const Search = ({ data, page }) => {
                           <>{(album.likes / 1000).toFixed(1)}k💖</>
                         )}
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                 );
               })
